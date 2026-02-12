@@ -1,0 +1,7 @@
+lw,bw=map(int,input().split())
+year=0
+while lw<=bw:
+lw=3*lw
+bw=2*bw
+year=year+1
+print(year)
