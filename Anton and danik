@@ -1,0 +1,12 @@
+n=int(input())
+s=input()
+x=s.count("A")
+y=s.count("D")
+if n!=len(s):
+   print("incorrect input")
+elif x>y:
+    print("Anton")
+elif x<y:
+    print("Danik")
+else:
+    print("Friendship")
